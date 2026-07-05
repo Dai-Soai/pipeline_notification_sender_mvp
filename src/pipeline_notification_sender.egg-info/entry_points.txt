@@ -1,0 +1,2 @@
+[console_scripts]
+pipeline-notification-sender = pipeline_notification_sender.cli:main

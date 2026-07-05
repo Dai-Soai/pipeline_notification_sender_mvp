@@ -1,0 +1,12 @@
+[project]
+name = "pipeline-notification-sender"
+version = "0.1.0"
+description = "RADAR Service Utility #21 - Pipeline Notification Sender MVP"
+requires-python = ">=3.10"
+
+[project.scripts]
+pipeline-notification-sender = "pipeline_notification_sender.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
