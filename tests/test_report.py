@@ -1,5 +1,5 @@
+from pipeline_notification_sender.models import DeliveryResult
 from pipeline_notification_sender.report import build_delivery_report
-from pipeline_notification_sender.sender import DeliveryResult
 
 
 def test_build_delivery_report_success():

@@ -3,7 +3,7 @@ from __future__ import annotations
 from datetime import datetime, timezone
 from typing import Any
 
-from pipeline_notification_sender.sender import DeliveryResult
+from pipeline_notification_sender.models import DeliveryResult
 
 
 def build_delivery_report(results: list[DeliveryResult]) -> dict[str, Any]:
