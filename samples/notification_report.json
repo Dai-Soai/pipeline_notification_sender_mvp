@@ -1,0 +1,21 @@
+{
+  "artifact_type": "notification_report",
+  "notifications": [
+    {
+      "notification_id": "notif-001",
+      "channel": "console",
+      "recipient": "ops",
+      "subject": "Pipeline completed",
+      "message": "Execution finished successfully.",
+      "severity": "info"
+    },
+    {
+      "notification_id": "notif-002",
+      "channel": "console",
+      "recipient": "dev",
+      "subject": "Pipeline warning",
+      "message": "Execution completed with warning.",
+      "severity": "warning"
+    }
+  ]
+}
