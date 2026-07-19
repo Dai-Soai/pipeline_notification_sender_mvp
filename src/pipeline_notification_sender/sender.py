@@ -12,14 +12,12 @@ from pipeline_notification_sender.report import build_delivery_report
 
 
 class NotificationSender(ABC):
-
     @abstractmethod
     def send(self, notification: NotificationItem) -> DeliveryResult:
         raise NotImplementedError
 
 
 class FakeConsoleSender(NotificationSender):
-
     def send(self, notification: NotificationItem) -> DeliveryResult:
         return DeliveryResult(
             notification_id=notification.notification_id,
